@@ -1,0 +1,23 @@
+{
+  "skill_name": "golang-naming",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "帮我给「场景识别结果」取个 Go 变量名",
+      "expected_output": "给出多个 Go 风格的变量名候选，包含 camelCase 形式，有推荐标记和说明",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "用 Go 写个函数，校验请求签名是否合法，函数名应该叫什么？",
+      "expected_output": "给出多个 Go 风格的函数名候选，包含 Validate/Verify 前缀，有推荐标记和说明",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "数据库连接池，这个变量叫什么好？Go 项目里用的",
+      "expected_output": "给出多个 Go 风格的变量名候选，包含 dbConnPool 等候选，有推荐标记和说明",
+      "files": []
+    }
+  ]
+}
